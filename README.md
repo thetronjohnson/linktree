@@ -1,15 +1,8 @@
-# 👷 `worker-template` Hello World
+# 👷 LinkTree
 
-A template for kick starting a Cloudflare worker project.
+A linktree style website using [Cloudflare Workers](https://workers.cloudflare.com/)
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
-
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+#### What does this project do?
+- A JSON api at [/links](https://linktree.kiranjohns.workers.dev/links) endpoint
+- Overwriting a [Static Site](https://static-links-page.signalnerve.workers.dev/) to make it into a profile page
+Project is deployed [here](https://linktree.kiranjohns.workers.dev/)
